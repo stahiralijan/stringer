@@ -1,0 +1,47 @@
+{
+  "name": "stahiralijan/stringer",
+  "description": "A PHP String manipulation library",
+  "license": "MIT",
+  "keywords": [
+    "php","string","stringer"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Syed Tahir Ali Jan",
+      "website": "https://tahirjan.com",
+      "email": "stahiralijan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "ext-mbstring": "*",
+  },
+  "autoload": {
+    "psr-4": {
+      "Stahiralijan\\Stringer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Stahiralijan\\Stringer\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Stahiralijan\\Stringer\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
