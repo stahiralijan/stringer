@@ -44,12 +44,48 @@ php artisan vendor:publish --provider="Stahiralijan\Stringer\ServiceProvider" --
 
 ## Usage
 
-CHANGE ME
+Following methods are provided:
+
+- `has($needle, $insensitive = FALSE)`
+- `toUpper()`
+- `toLower()`
+- `toTitle()`
+- `substrUpper($start = 0, $length = 1)`
+- `substrLower($start = 0, $length = 1)`
+- `capitalize()`
+- `titleCase()`
+- `toCharArray($length = 1)`
+- `toWordsArray()`
+- `substring($start = 0, $length = NULL)`
+- `before($search, $includeWord = FALSE)`
+- `after($search, $includeWord = FALSE)`
+- `between($start, $end, $includeWords = FALSE)`
+- `startsWith($search)`
+- `endsWith($search)`
+- `reverse()`
+- `reverseCase()`
+- `toSlug($delimiter = '-')`
+- `simplify()`
+- `replaceAll($search, string $replacement)`
+- `replaceFirst($search, $replacement)`
+- `replaceLast($search, $replacement)`
+- `replaceN($search, $replacement, $numbers)`
+- `indexOf($search, $insensitive = FALSE)`
+- `lastIndexOf($search, $insensitive = FALSE)`
+- `countWords()`
+- `contains($search)`
+- `equals($value)`
+- `insertAt($value, $position)`
+- `leftTrim()`
+- `rightTrim()`
+- `trim()`
+- `length()`
+- `printf($format)`
+- `limit($limit = 100, $terminator = '...', $includeTerminator = FALSE)`
 
 ## Security
 
-If you discover any security related issues, please email 
-instead of using the issue tracker.
+If you discover any security related issues, please email.
 
 ## Credits
 
