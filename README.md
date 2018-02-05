@@ -1,16 +1,14 @@
 # Stringer
 
-[![Build Status](https://travis-ci.org/stahiralijan/stringer.svg?branch=master)](https://travis-ci.org/stahiralijan/stringer)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/stahiralijan/stringer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/stahiralijan/stringer/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
-[![Coverage Status](https://coveralls.io/repos/github/stahiralijan/stringer/badge.svg?branch=master)](https://coveralls.io/github/stahiralijan/stringer?branch=master)
-
 [![Packagist](https://img.shields.io/packagist/v/stahiralijan/stringer.svg)](https://packagist.org/packages/stahiralijan/stringer)
 [![Packagist](https://poser.pugx.org/stahiralijan/stringer/d/total.svg)](https://packagist.org/packages/stahiralijan/stringer)
 [![Packagist](https://img.shields.io/packagist/l/stahiralijan/stringer.svg)](https://packagist.org/packages/stahiralijan/stringer)
 
-Package description: CHANGE ME
+Package description: This is a string manipulation library for not only Laravel but other php projects as well.
+
+## Dependencies
+- PHP7+
+- PHP mbstring (Multi-byte string) extension
 
 ## Installation
 
@@ -88,8 +86,6 @@ Following methods are provided:
 If you discover any security related issues, please email.
 
 ## Credits
-
-- [](https://github.com/stahiralijan/stringer)
 - [All contributors](https://github.com/stahiralijan/stringer/graphs/contributors)
 
 This package is bootstrapped with the help of
