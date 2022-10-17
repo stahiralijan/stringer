@@ -1,6 +1,6 @@
 {
   "name": "stahiralijan/stringer",
-  "description": "A PHP String manipulation library",
+  "description": "🧵A PHP String manipulation library",
   "license": "MIT",
   "keywords": [
     "php","string","stringer"
@@ -9,12 +9,12 @@
   "authors": [
     {
       "name": "Syed Tahir Ali Jan",
-      "website": "https://tahirjan.com",
+      "homepage": "https://tahirjan.com",
       "email": "stahiralijan@gmail.com"
     }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": "^8.0",
     "ext-mbstring": "*"
   },
   "require-dev": {
